@@ -15,6 +15,12 @@ test('awesome', function (t) {
     itemsInCategory.forEach(item => {
       t.ok(item.description, `${item.name} has a description`)
     })
+
+    if (category === 'tools') {
+      itemsInCategory.forEach(tool => {
+        t.ok(tool.subcategory, `tool '${tool.name}' has a subcategory`)
+      })
+    }
   })
 
   t.end()
