@@ -2,8 +2,9 @@
   "name": "awesome-electron",
   "version": "1.1.1",
   "description": "Useful resources for creating apps with Electron",
-  "main": "index.js",
+  "main": "awesome.json",
   "scripts": {
+    "build": "node build.js > awesome.json",
     "test": "node test.js | tap-spec"
   },
   "repository": "github:sindresorhus/awesome-electron",
