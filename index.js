@@ -4,9 +4,9 @@ const ignoredCategories = ['table_of_contents', 'tips', 'contribute', 'license']
 const headingPattern = /^## /
 const subHeadingPattern = /^### /
 const itemPattern = /^- \[(.*)\]\((\S*)\)(.*)/
-const slug = function slug(str) { return str.toLowerCase().replace(/ /g, '_')}
+const slug = function slug (str) { return str.toLowerCase().replace(/ /g, '_')}
 
-module.exports = function() {
+module.exports = function () {
   var awesome = []
   var category
   var subcategory
