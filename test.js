@@ -1,5 +1,5 @@
 const test = require('tape')
-const awesome = require('./')()
+const awesome = require('./')
 var categories = ['apps', 'boilerplates', 'tools', 'components']
 
 test('awesome', function (t) {
