@@ -3,6 +3,8 @@ const awesome = require('./')()
 var categories = ['apps', 'boilerplates', 'tools', 'components']
 
 test('awesome', function (t) {
+  t.ok(awesome.length, 'is an array')
+
   awesome.forEach(item => {
     t.ok(item.name.length, `${item.name} has a name`)
     t.ok(item.href.length, `${item.name} has an href`)
