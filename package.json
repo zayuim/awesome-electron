@@ -5,7 +5,9 @@
   "main": "awesome.json",
   "scripts": {
     "build": "node build.js > awesome.json",
-    "test": "node test.js | tap-spec"
+    "pretest": "npm run build",
+    "test": "node test.js | tap-spec",
+    "prepublish": "npm test"
   },
   "repository": "github:sindresorhus/awesome-electron",
   "keywords": [
