@@ -8,7 +8,9 @@ You might also like [awesome-nodejs](https://github.com/sindresorhus/awesome-nod
 
 
 ## Contents
+## Table of Contents
 
+- [npm Package](#npm-package)
 - [Apps](#apps)
 - [Boilerplates](#boilerplates)
 - [Tools](#tools)
@@ -21,6 +23,39 @@ You might also like [awesome-nodejs](https://github.com/sindresorhus/awesome-nod
 - [Community](#community)
 - [Tips](#tips)
 
+## npm Package
+
+The contents of this README are available in a structured JSON format:
+
+```sh
+npm i awesome-electron
+```
+
+When you `require('awesome-electron')`, you get an array of all that is awesome:
+
+```js
+{ name: 'WebTorrent',
+  href: 'https://github.com/feross/webtorrent-app',
+  description: 'Streaming torrent client.',
+  category: 'apps',
+  subcategory: 'open_source' },
+{ name: 'Min',
+  href: 'https://github.com/PalmerAL/Min',
+  description: 'Minimal web browser.',
+  category: 'apps',
+  subcategory: 'open_source' },
+{ name: 'Mancy',
+  href: 'https://github.com/princejwesley/Mancy',
+  description: 'JavaScript REPL.',
+  category: 'apps',
+  subcategory: 'open_source' },
+  ...
+]
+```
+
+To keep the repository's master branch clean and contributor-friendly, the code
+for this npm package lives in a separate branch: 
+https://github.com/sindresorhus/awesome-electron/tree/npm-module
 
 ## Apps
 
