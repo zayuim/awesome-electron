@@ -1,6 +1,6 @@
 const test = require('tape')
 const awesome = require('./')
-var categories = ['apps', 'boilerplates', 'tools', 'components']
+var categories = ['apps', 'boilerplates', 'tools', 'components', 'videos', 'community']
 
 test('awesome', function (t) {
   t.ok(awesome.length, 'is an array')
@@ -15,7 +15,9 @@ test('awesome', function (t) {
     t.ok(itemsInCategory.length, `${category} category is not empty`)
 
     itemsInCategory.forEach(item => {
-      t.ok(item.description, `${item.name} has a description`)
+      if (item.category !== 'videos' && item.category !== 'community') {
+        t.ok(item.description, `${item.name} has a description`)
+      }
     })
 
     if (category === 'tools') {
