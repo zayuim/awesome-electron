@@ -1,45 +1,5 @@
 [
   {
-    "name": "Apps",
-    "href": "#apps"
-  },
-  {
-    "name": "Boilerplates",
-    "href": "#boilerplates"
-  },
-  {
-    "name": "Tools",
-    "href": "#tools"
-  },
-  {
-    "name": "Components",
-    "href": "#components"
-  },
-  {
-    "name": "Documentation",
-    "href": "#documentation"
-  },
-  {
-    "name": "Articles",
-    "href": "#articles"
-  },
-  {
-    "name": "Videos",
-    "href": "#videos"
-  },
-  {
-    "name": "Podcasts",
-    "href": "#podcasts"
-  },
-  {
-    "name": "Community",
-    "href": "#community"
-  },
-  {
-    "name": "Tips",
-    "href": "#tips"
-  },
-  {
     "name": "WebTorrent",
     "href": "https://github.com/feross/webtorrent-app",
     "description": "Streaming torrent client.",
