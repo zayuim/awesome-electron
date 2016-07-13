@@ -41,6 +41,10 @@ readline.createInterface({
       if (parts[3]) item.description = parts[3].replace(/.* - /, '')
       item.category = category
       if (subcategory) { item.subcategory = subcategory}
+
+      // skip local deep links
+      if (item.href && item.href.match(/^#/)) return
+
       awesome.push(item)
     }
   })
