@@ -1,6 +1,6 @@
 {
   "name": "awesome-electron",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Useful resources for creating apps with Electron",
   "main": "awesome.json",
   "scripts": {
