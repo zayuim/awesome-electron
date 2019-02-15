@@ -48,6 +48,7 @@ Made with Electron.
 - [Atom](https://github.com/atom/atom) - Code editor.
 - [Visual Studio Code](https://github.com/Microsoft/vscode) - Cross-platform IDE.
 - [Brave](https://github.com/brave/browser-laptop) - Privacy-focused web browser.
+- [Auryo](https://github.com/Superjo149/auryo) - Soundcloud client.
 
 ###### Other
 
